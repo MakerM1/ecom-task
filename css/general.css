@@ -65,3 +65,35 @@ body {
 .sale--style span {
     font-weight: 500;
 }
+
+.button--style-one {
+    padding: 16px 40px;
+    background-color: white;
+    color: var(--Branding-Success, #00B207);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 53px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.2s;
+}
+
+.button--style-one:hover {
+    background-color: #00B207;
+    color: white;
+    border: 2px solid white;
+}
+
+.button--style-one:hover i {
+    color: white;
+}
+
+.button--style-one i {
+    color: var(--Branding-Success, #00B207);
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.2s;
+}

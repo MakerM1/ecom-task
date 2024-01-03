@@ -80,25 +80,6 @@
     font-weight: 400;
 }
 
-.banner__button {
-    padding: 16px 40px;
-    background-color: white;
-    color: var(--Branding-Success, #00B207);
-    font-size: 16px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    border-radius: 53px;
-    cursor: pointer;
-}
-
-.banner__button i {
-    color: var(--Branding-Success, #00B207);
-    font-size: 16px;
-    font-weight: 600;
-}
-
 .small-banner-container {
     display: flex;
     flex-direction: column;
@@ -422,4 +403,125 @@
 .card__rating {
     max-width: 60px;
     width: 100%;
+}
+
+/* || banners section 2 */
+
+.banners-section-two {
+    padding: 20px;
+}
+
+.banners-section__main-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.banner__sales-time {
+    background-image: url('../images/banner-1.png');
+}
+
+.banner__low-fat {
+    background-image: url('../images/banner-2.png');
+}
+
+.banner__fresh-fruit {
+    background-image: url('../images/banner-3.png');
+}
+
+.banner__style {
+    max-width: 424px;
+    width: 100%;
+    min-height: 536px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.banner__best-deals {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 35px;
+}
+
+.banner__title {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.banner__time-left {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    align-items: flex-start;
+    margin-bottom: 14px;
+}
+
+.banner__time {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.banner__time-digit {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.banner__time-unit {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.banner__dots {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.banner__lof-fat--text {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner__lof-fat--text span {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Branding-Warning, #FF8A00);
+}
+
+.banner__title--fruit {
+    color: #1A1A1A;
+}
+
+.banner__fresh-fruit--text {
+    font-size: 18px;
+    color: #1A1A1A;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner__best-deals--summer {
+    color: #1A1A1A;
+}
+
+.banner__fresh-fruit--text span {
+    margin-left: 12px;
+    padding: 6px 12px;
+    background-color: #1A1A1A;
+    color: #FCC900;
+    border-radius: 5px;
 }
