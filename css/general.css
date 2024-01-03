@@ -16,3 +16,52 @@ body {
     color: var(--Gray-Scale-Gray-900, #1A1A1A);
     line-height: 38px;
 }
+
+@media (max-width: 660px) {
+    .h2--style {
+        text-align: center;
+    }
+}
+
+.more--link {
+    color: #00B207;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.more--link i {
+    color: #00B207;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.section--heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 400px) {
+    .section--heading {
+        justify-content: space-around;
+    }
+}
+
+.sale--style {
+    padding: 4px 9px;
+    border-radius: 4px;
+    background-color: var(--Branding-Error, #EA4B48);
+    color: white;
+    width: fit-content;
+    font-optical-sizing: 14px;
+    font-weight: 400;
+}
+
+.sale--style span {
+    font-weight: 500;
+}
