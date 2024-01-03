@@ -1,0 +1,18 @@
+/* || general */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-max-width--style {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.h2--style {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    line-height: 38px;
+}
