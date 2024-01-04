@@ -103,6 +103,35 @@ body {
     transition: all 0.2s;
 }
 
+.button--style-two {
+    background-color: #00B207;
+    color: white;
+    border: 2px solid #00B207;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 53px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button--style-two i {
+    color: white;
+    transition: all 0.2s;
+}
+
+.button--style-two:hover {
+    background-color: white;
+    color: var(--Branding-Success, #00B207);
+}
+
+.button--style-two:hover i {
+    color: #00B207;
+}
+
 .add-to-cart__button {
     border-radius: 43px;
     background-color: #00B207;

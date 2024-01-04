@@ -536,13 +536,6 @@
     background-color: #F7F7F7;
 }
 
-.deals-container {
-    width: 105%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .hot-deals__main--heading {
     margin-bottom: 32px;
 }
@@ -724,4 +717,58 @@
     .deals__bottom {
         justify-content: center;
     }
+}
+
+/* || summer sail banner */
+
+.summer-sail-banner {
+    padding: 10px;
+    margin: 60px 0;
+}
+
+.summer-sail-banner__main-container {
+    min-height: 358px;
+    background-image: url('../images/banner-4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.summer-sail-banner__content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.summer-sail__sub-heading {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.summer-sail__heading {
+    font-size: 56px;
+    font-weight: 400;
+    color: white;
+}
+
+.summer-sail__heading span {
+    color: #FF8A00;
+    font-weight: 600;
+}
+
+.summer-sail__text {
+    max-width: 441px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    line-height: 24px;
 }
