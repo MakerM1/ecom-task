@@ -894,6 +894,11 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news-card__tag p {
     color: #666;
     font-size: 14px;
     font-weight: 400;
@@ -902,6 +907,17 @@
 .news-card__tag i {
     color: #B3B3B3;
     font-size: 15px;
+}
+
+
+@media (max-width: 437px) {
+    .news-card__tag p {
+        font-size: 7px;
+    }
+
+    .news-card__tag i {
+        font-size: 10px;
+    }
 }
 
 .news-card__title {
