@@ -1091,6 +1091,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 
 .instagram__img-container {
