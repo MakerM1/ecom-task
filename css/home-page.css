@@ -348,7 +348,9 @@
 }
 
 .products__card.card__sale .card__sale--sale,
-.products__card.card__sale .card__price span {
+.products__card.card__sale .card__price span,
+.big-card.card__sale .card__sale--sale,
+.big-card.card__sale .card__price span {
     display: inline-block;
 }
 
@@ -409,6 +411,7 @@
 
 .banners-section-two {
     padding: 20px;
+    margin-bottom: 120px;
 }
 
 .banners-section__main-container {
@@ -524,4 +527,201 @@
     background-color: #1A1A1A;
     color: #FCC900;
     border-radius: 5px;
+}
+
+/* || hot deals section */
+
+.hot-deals-section {
+    padding: 60px 10px;
+    background-color: #F7F7F7;
+}
+
+.deals-container {
+    width: 105%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hot-deals__main--heading {
+    margin-bottom: 32px;
+}
+
+.deals__top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.big-card {
+    max-width: 511.5px;
+    width: 100%;
+    border: 1px solid var(--Branding-Success-Dark, #2C742F);
+    background: var(--Gray-Scale-White, #FFF);
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+    transition: all 0.2s;
+}
+
+.big-card:hover {
+    border: 1px solid var(--Gray-Scale-Gray-100, #E6E6E6);
+    background-color: white;
+    box-shadow: none;
+}
+
+.big-card__img {
+    position: relative;
+}
+
+.big-card__img img {
+    max-width: 525px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.big-card__content-top .card__icon {
+    border: 2px solid white;
+    background-color: var(--Gray-Scale-Gray-50, #F2F2F2);
+    cursor: pointer;
+}
+
+.big-card__content-top .card__view:hover {
+    background-color: #1DA1F2;
+}
+
+.big-card__content-top .card__favorite:hover {
+    background-color: #ff4f66;
+}
+
+.big-card__content-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 31px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.big-card__add-to-cart {
+    max-width: 371px;
+    width: 100%;
+}
+
+.big-card__content-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    padding: 24px 12px;
+}
+
+.big-card__content-bottom .card__name {
+    color: #2C742F;
+    font-size: 18px;
+}
+
+.big-card .card__price {
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.card__rating-container {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card__rating-container img {
+    max-width: 100px;
+    width: 100%;
+}
+
+.card__rating-container p {
+    font-size: 12px;
+    color: var(--Gray-Scale-Gray-500, #808080);
+}
+
+.card__time-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__time-left-warning {
+    color: #999;
+    font-size: 14px;
+}
+
+.card__time-left-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card__time-left-container p {
+    color: black;
+}
+
+.card__time-left-container .banner__dots {
+    color: #808080;
+}
+
+.card__time-left .banner__time-unit {
+    color: #999;
+}
+
+.deals__top-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    max-width: 792px;
+    width: 100%;
+}
+
+.best-sale {
+    padding: 3px 8px;
+    background-color: #2388FF;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    width: fit-content;
+    position: absolute;
+    top: 16px;
+    left: 100px;
+    display: none;
+}
+
+.deals__top-left.card__best-sale .best-sale {
+    display: inline-block;
+}
+
+@media (max-width: 1337px) {
+    .deals__top {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .deals__top-right {
+        justify-content: center;
+    }
+}
+
+.deals__bottom {
+    max-width: 1320px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media (max-width: 1298px) {
+    .deals__bottom {
+        justify-content: center;
+    }
 }

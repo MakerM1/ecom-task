@@ -35,6 +35,11 @@ body {
     font-weight: 600;
     margin-left: 12px;
     vertical-align: middle;
+    transition: all 0.2s;
+}
+
+.more--link:hover i {
+    transform: translateX(5px);
 }
 
 .section--heading {
@@ -95,5 +100,34 @@ body {
     color: var(--Branding-Success, #00B207);
     font-size: 16px;
     font-weight: 600;
+    transition: all 0.2s;
+}
+
+.add-to-cart__button {
+    border-radius: 43px;
+    background-color: #00B207;
+    padding: 14px 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    border: 2px solid #00B207;
+    transition: all 0.2s;
+}
+
+.add-to-cart__button:hover {
+    background-color: transparent;
+    border: 2px solid #00B207;
+    color: #00B207;
+}
+
+.add-to-cart__button:hover i {
+    color: #00B207;
+}
+
+.add-to-cart__button i {
+    color: white;
     transition: all 0.2s;
 }
