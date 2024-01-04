@@ -1047,3 +1047,33 @@
     color: #999;
     line-height: 21px;
 }
+
+/* || partners section */
+
+.partners-section {
+    padding: 60px 10px;
+}
+
+.partners__main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 24px;
+    scroll-snap-type: x mandatory;
+}
+
+.partners__main-container::-webkit-scrollbar {
+    display: none;
+}
+
+.partner-logo {
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+.partner-line {
+    height: 32px;
+    width: 1px;
+    background-color: #E6E6E6;
+}
