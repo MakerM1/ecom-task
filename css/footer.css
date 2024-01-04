@@ -5,12 +5,15 @@
 
 .news-latter__main-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 @media (max-width: 1238px) {
+    .news-latter__main-container {
+        justify-content: center;
+    }
 
     .newslatter__text,
     footer h2 {
@@ -92,4 +95,119 @@
 
 .newslatter__logo:hover i {
     color: white;
+}
+
+.footer-main {
+    background-color: #1A1A1A;
+    padding: 60px 10px 0px;
+}
+
+.main__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1089px) {
+    .main__top {
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+.main__top-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.main__top-left p {
+    font-size: 14px;
+    color: #808080;
+    max-width: 336px;
+    width: 100%;
+}
+
+.main__contacts {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main__contacts p {
+    width: fit-content;
+    font-size: 16px;
+    color: #808080;
+}
+
+.main__contacts a {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 1.5px 0px 0px #20B526;
+    padding: 6px 0;
+}
+
+.main__list p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main__list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.main__list ul li a {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #999;
+    transition: all 0.2s;
+}
+
+.main__list ul li a:hover {
+    color: white;
+}
+
+.main__lists {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.main__bottom {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -1px 0px 0px #333;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 660px) {
+    .main__bottom {
+        justify-content: center;
+    }
+}
+
+.main__bottom p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.bottom__credit-card-logos {
+    display: flex;
+    gap: 8px;
 }
