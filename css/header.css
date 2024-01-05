@@ -2,6 +2,10 @@ header {
     margin-bottom: 24px;
 }
 
+header.location-active .header__location {
+    display: flex;
+}
+
 .header__top {
     display: flex;
     justify-content: space-between;
@@ -212,4 +216,50 @@ p {
     font-size: 14px;
     color: white;
     margin: 0 8px;
+}
+
+.header__location {
+    width: 100%;
+    min-height: 120px;
+    background-image: url('../images/Breadcrumbs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    display: none;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.location__home a i {
+    color: #808080;
+    font-size: 18px;
+}
+
+.location__arrow {
+    color: #999;
+    font-size: 13px;
+}
+
+.location p {
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.location p:hover {
+    text-decoration: underline;
+}
+
+.active__location p {
+    color: #00B207;
 }

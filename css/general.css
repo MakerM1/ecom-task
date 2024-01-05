@@ -160,17 +160,3 @@ body {
     color: white;
     transition: all 0.2s;
 }
-
-/* || featured products section */
-
-.featured-products {
-    padding: 10px;
-    margin: 60px 0;
-}
-
-.featured-prodcuts__container {
-    margin-top: 32px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
