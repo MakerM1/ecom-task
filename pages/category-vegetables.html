@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../css/category.css" />
   </head>
   <body>
     <header class="location-active">
@@ -78,7 +79,7 @@
 
       <div class="header__middle">
         <div class="header__logo">
-          <img src="../images/logo.svg" alt="logo" />
+          <img src="../../images/logo.svg" alt="logo" />
         </div>
         <div class="header__search">
           <form action="#" class="search">
@@ -97,7 +98,7 @@
           <i class="fa-regular fa-heart"></i>
           <div class="header__line"></div>
           <div class="header__cart-container">
-            <img src="../images/Cart.svg" alt="cart" />
+            <img src="../../images/Cart.svg" alt="cart" />
             <div class="cart__text">
               <p class="header__shoping-cart--text">Shopping cart:</p>
               <p class="header__shoping-cart--price">$57.00</p>
@@ -150,7 +151,947 @@
         </div>
       </div>
     </header>
+    <div class="main-wrapper">
+      <aside class="sidebar">
+        <div class="filter__button">
+          <button class="button--style-two">
+            Filter
+            <i class="fa-solid fa-filter"></i>
+          </button>
+        </div>
+        <div class="sidebar__categories">
+          <div class="sidebar__tops">
+            <h4 class="sidebar__categories-heading">Categories</h4>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="sidebar__category-options">
+            <div class="sidebar__category-option">
+              <input type="radio" name="category" id="category1" />
+              <label for="category1">
+                Fresh Fruit (25) <span>(134)</span>
+              </label>
+            </div>
 
-    <aside></aside>
+            <div class="sidebar__category-option">
+              <input type="radio" name="category" id="category2" checked />
+              <label for="category2"> Vegetables <span>(150)</span> </label>
+            </div>
+
+            <div class="sidebar__category-option">
+              <input type="radio" name="category" id="category3" />
+              <label for="category3"> Cooking <span>(54)</span> </label>
+            </div>
+
+            <div class="sidebar__category-option">
+              <input type="radio" name="category" id="category4" />
+              <label for="category4"> Snacks <span>(47)</span> </label>
+            </div>
+
+            <div class="sidebar__category-option">
+              <input type="radio" name="category" id="category5" />
+              <label for="category5"> Beverages <span>(43)</span> </label>
+            </div>
+
+            <div class="sidebar__category-option">
+              <input type="radio" name="category" id="category6" />
+              <label for="category6">
+                Beauty &amp; Health <span>(38)</span>
+              </label>
+            </div>
+
+            <div class="sidebar__category-option">
+              <input type="radio" name="category" id="category7" />
+              <label for="category7">
+                Bread &amp; Bakery <span>(15)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar__price">
+          <div class="sidebar__tops">
+            <h4 class="sidebar__categories-heading">Price</h4>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="sidebar__price-container">
+            <div class="sidebar__price-inputs">
+              <input
+                type="range"
+                class="slider1"
+                min="-1000"
+                max="0"
+                value="-50"
+              />
+              <input
+                type="range"
+                class="slider2"
+                min="1001"
+                max="2000"
+                value="1500"
+              />
+            </div>
+            <div class="sidebar__prices">
+              <p class="price">Price:</p>
+              <p class="min-price">50</p>
+              <p class="dash">-</p>
+              <p class="max-price">1,500</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar__rating">
+          <div class="sidebar__tops">
+            <h4 class="sidebar__categories-heading">Rating</h4>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="star__checkboxes">
+            <div class="star__checkbox">
+              <input type="checkbox" id="5star" name="rating" />
+              <label for="5star">
+                <img src="../../images/ratings/Rating-5-star.svg" alt="" />
+              </label>
+            </div>
+            <div class="star__checkbox">
+              <input type="checkbox" id="4star" checked name="rating" />
+              <label for="4star">
+                <img src="../../images/ratings/Rating-4-star.svg" alt="" />
+              </label>
+            </div>
+            <div class="star__checkbox">
+              <input type="checkbox" id="3star" name="rating" />
+              <label for="3star">
+                <img src="../../images/ratings/Rating-3-star.svg" alt="" />
+              </label>
+            </div>
+            <div class="star__checkbox">
+              <input type="checkbox" id="2star" name="rating" />
+              <label for="2star">
+                <img src="../../images/ratings/Rating-2-star.svg" alt="" />
+              </label>
+            </div>
+            <div class="star__checkbox">
+              <input type="checkbox" id="1star" name="rating" />
+              <label for="1star">
+                <img src="../../images/ratings/Rating-1-star.svg" alt="" />
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar__tags">
+          <div class="sidebar__tops">
+            <h4 class="sidebar__categories-heading">Popular Tags</h4>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="tags__container">
+            <div class="tag">
+              <p>Healthy</p>
+            </div>
+            <div class="tag active">
+              <p>Low fat</p>
+            </div>
+            <div class="tag">
+              <p>Vegeterian</p>
+            </div>
+            <div class="tag">
+              <p>Kid foods</p>
+            </div>
+            <div class="tag">
+              <p>Vitamins</p>
+            </div>
+            <div class="tag">
+              <p>Bread</p>
+            </div>
+            <div class="tag">
+              <p>Meat</p>
+            </div>
+            <div class="tag">
+              <p>Snacks</p>
+            </div>
+            <div class="tag">
+              <p>Tiffin</p>
+            </div>
+            <div class="tag">
+              <p>Launch</p>
+            </div>
+            <div class="tag">
+              <p>Dinner</p>
+            </div>
+            <div class="tag">
+              <p>Breakfast</p>
+            </div>
+            <div class="tag">
+              <p>Fruit</p>
+            </div>
+          </div>
+          <div class="sidebar__banner-container">
+            <div class="sidebar__banner-content">
+              <h4 class="banner__heading">
+                <span>79%</span>
+                Discount
+              </h4>
+              <p class="banner__text">on your first order</p>
+              <a href="#" class="more--link">
+                Shop Now <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="sidebar__products-container">
+            <h4 class="sidebar__products-title">Sale Products</h4>
+            <div class="sidebar__product">
+              <img
+                src="../images/products/product-14.png"
+                alt="prduct image"
+                class="sidebar__product-img"
+              />
+              <div class="sidebar__product-text">
+                <p class="sidebar__product-title">Red Capsicum</p>
+                <p class="sidebar__product-price">$32.00 <span>$20.99</span></p>
+                <img
+                  src="../images/rating.svg"
+                  alt="rating"
+                  class="sidebar__product-rating"
+                />
+              </div>
+            </div>
+
+            <div class="sidebar__product">
+              <img
+                src="../images/products/product-16.png"
+                alt="prduct image"
+                class="sidebar__product-img"
+              />
+              <div class="sidebar__product-text">
+                <p class="sidebar__product-title">Chanise Cabbage</p>
+                <p class="sidebar__product-price">$24.00 <span>$20.99</span></p>
+                <img
+                  src="../images/rating.svg"
+                  alt="rating"
+                  class="sidebar__product-rating"
+                />
+              </div>
+            </div>
+
+            <div class="sidebar__product">
+              <img
+                src="../images/products/product-9.png"
+                alt="prduct image"
+                class="sidebar__product-img"
+              />
+              <div class="sidebar__product-text">
+                <p class="sidebar__product-title">Green Capsicum</p>
+                <p class="sidebar__product-price">$32.00 <span>$20.99</span></p>
+                <img
+                  src="../images/rating.svg"
+                  alt="rating"
+                  class="sidebar__product-rating"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <section class="vegetables">
+          <div class="vegetables__sort">
+            <div class="vegetables__sort-left">
+              <p class="sort-by">Sort by:</p>
+              <select name="vegetables" id="vegetables">
+                <option value="latest" selected>Latest</option>
+                <option value="oldest">Oldest</option>
+                <option value="cheap">Cheapest - Expensive</option>
+                <option value="expensive">Expensive - Cheapest</option>
+              </select>
+            </div>
+            <div class="vegetables__sort-right">
+              <p class="results"><span>52</span> Results Found</p>
+            </div>
+          </div>
+          <div class="vegetables__contianer">
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-6.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Big Potatoes</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-3.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Chinese Cabbage</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card card__sale">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-7.png"
+                    alt="product"
+                  />
+                  <p
+                    class="card__sale--sale sale--style"
+                    style="background-color: black; color: white"
+                  >
+                    Out of Stock
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Ladies Finger</p>
+                    <p class="card__price">$14.99 <span>$20.99</span></p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-5.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Eggplant</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-8.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Fresh Coulflower</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-1.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Green Apple</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-9.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Green Carpsicum</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-10.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Green Chili</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card card__sale">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-17.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Green Cucumber</p>
+                    <p class="card__price">$14.99 <span>$20.99</span></p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-4.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Green Lettuce</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-10.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Ladis Finger</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-14.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Green Copsicum</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-18.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Red Chili</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-15.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Red Tomato</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="products__card">
+                <div class="products__card-img-container">
+                  <img
+                    src="../../images/products/product-16.png"
+                    alt="product"
+                  />
+                  <p class="card__sale--sale sale--style">
+                    Sale <span>50%</span>
+                  </p>
+                  <div class="card__hover">
+                    <div class="card__favorite card__icon">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card__view card__icon">
+                      <i class="fa-regular fa-eye"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__card-bottom">
+                  <div class="card__name-price-rating">
+                    <p class="card__name">Fresh Mango</p>
+                    <p class="card__price">$14.99</p>
+                    <img
+                      src="../images/rating.svg"
+                      alt="rating"
+                      class="card__rating"
+                    />
+                  </div>
+                  <div class="card__bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="section-nav">
+            <div class="section-nav__left">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="section-nav__pages">
+              <a href="#" class="active">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#">...</a>
+              <a href="#">21</a>
+            </div>
+            <div class="section-nav__right">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="footer-newslatter">
+        <div class="news-latter__main-container container-max-width--style">
+          <div class="news-latter__left">
+            <h2 class="h2--style">Subscribe our Newsletter</h2>
+            <p class="newslatter__text">
+              Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
+              Phasellus imperdiet elit eu magna.
+            </p>
+          </div>
+          <div class="newslatter__right">
+            <form action="#" class="newslatter__form">
+              <input
+                type="email"
+                name="email"
+                class="email-input"
+                placeholder="Your email address"
+              />
+              <input
+                type="submit"
+                value="Subscribe"
+                class="email-button button--style-two"
+              />
+            </form>
+            <div class="newslatter__logos">
+              <div class="newslatter__logo">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="newslatter__logo">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="newslatter__logo">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </div>
+              <div class="newslatter__logo">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-main">
+        <div class="main__top container-max-width--style">
+          <div class="main__top-left">
+            <img src="../images/footer-logo.svg" alt="footer logo" />
+            <p>
+              Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
+              dui, eget bibendum magna congue nec.
+            </p>
+            <div class="main__contacts">
+              <a href="tel:2195550114"> (219) 555-0114 </a>
+              <p>or</p>
+              <a href="mailto:proxy@gmail.com"> Proxy@gmail.com </a>
+            </div>
+          </div>
+          <div class="main__top-right">
+            <div class="main__lists">
+              <div class="main__list">
+                <p>My Account</p>
+                <ul>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Order History</a></li>
+                  <li><a href="#">Shoping Cart</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                </ul>
+              </div>
+              <div class="main__list">
+                <p>Helps</p>
+                <ul>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Faqs</a></li>
+                  <li><a href="#">Terms &amp; Condition</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="main__list">
+                <p>Proxy</p>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Track Order</a></li>
+                </ul>
+              </div>
+              <div class="main__list">
+                <p>Categories</p>
+                <ul>
+                  <li><a href="#">Fruit &amp; Vegetables</a></li>
+                  <li><a href="#">Meat &amp; Fish</a></li>
+                  <li><a href="#">Bread &amp; Bakery</a></li>
+                  <li><a href="#">Beauty &amp; Health</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__bottom container-max-width--style">
+          <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
+
+          <div class="bottom__credit-card-logos">
+            <img
+              src="../images/credit-cards/Method-ApplePay.svg"
+              alt="apple pay"
+            />
+            <img src="../images/credit-cards/Method-Visa.svg" alt="visa" />
+            <img
+              src="../images/credit-cards/Method-Discover.svg"
+              alt="discover"
+            />
+            <img
+              src="../images/credit-cards/Method-Mastercard.svg"
+              alt="mastercard"
+            />
+            <img src="../images/credit-cards/secure.svg" alt="secure payment" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/index.js"></script>
   </body>
 </html>
