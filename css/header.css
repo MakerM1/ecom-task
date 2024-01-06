@@ -201,6 +201,13 @@ p {
     cursor: pointer;
 }
 
+.header__nav-item a {
+    color: var(--Gray-Scale-Gray-400, #999);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 .header__nav-item.active,
 .header__nav-item.active i {
     color: white;
