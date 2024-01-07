@@ -1,5 +1,6 @@
 .product__section {
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .product__main-container {
@@ -323,4 +324,120 @@
 .product__categories span.country {
     text-decoration: underline;
     font-weight: 400;
+}
+
+/* || desccriptions */
+
+.descriptions__section {
+    padding: 10px;
+}
+
+.descriptions__top {
+    width: 100%;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.descriptions__top p {
+    padding: 16px;
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: white;
+}
+
+.descriptions__top p.active {
+    color: #1A1A1A;
+    box-shadow: 0px -2px 0px 0px #20B526 inset;
+}
+
+.descriptions__left {
+    padding: 32px;
+}
+
+.descriptions__left p,
+.descriptions__left li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    line-height: 21px;
+}
+
+.descriptions__left li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.descriptions__left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.descriptions__left p {
+    max-width: 648px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.descriptions__precentages {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 537px;
+    width: 100%;
+    border: 1px solid var(--Gray-Scale-Gray-100, #E6E6E6);
+    background: var(--Gray-Scale-White, #FFF);
+    padding: 24px 20px;
+    margin-top: 20px;
+}
+
+.precentages {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.precentage__text--bold {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    line-height: 21px;
+}
+
+.precentage__text--normal {
+    font-size: 13px;
+    color: #808080;
+    line-height: 19.5px;
+}
+
+.descriptions__right {
+    padding: 32px 0;
+}
+
+.descriptions__right img {
+    max-width: 536px;
+    width: 100%;
+}
+
+.descriptions__bottom {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.precentages img {
+    max-width: 32px;
+    width: 100%;
 }
