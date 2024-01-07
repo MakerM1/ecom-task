@@ -256,14 +256,16 @@ p {
     font-size: 13px;
 }
 
-.location p {
+.location p,
+.location a {
     color: #999;
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
 }
 
-.location p:hover {
+.location p:hover,
+.location a:hover {
     text-decoration: underline;
 }
 
