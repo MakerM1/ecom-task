@@ -37,7 +37,8 @@
 }
 
 .email-password__container input[type='email'],
-.email-password__container input[type='password'] {
+.password__container input[type='password'],
+.password__container input[type='text'] {
     max-width: 472px;
     width: 100%;
     padding: 14px 16px;
@@ -98,4 +99,19 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.password__container {
+    position: relative;
+    width: 100%;
+}
+
+.password__container i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #1A1A1A;
+    font-size: 16px;
 }
